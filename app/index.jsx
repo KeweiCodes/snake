@@ -4,6 +4,9 @@ import ReactDOM from "react-dom";
 var { Router } = require('react-router');
 var routes = require("./routes");
 
+//ReactDOM.render(<Router>{routes}</Router>, document.getElementById('app'));
+
+
 import createBrowserHistory from 'history/lib/createBrowserHistory'
 let history = createBrowserHistory()
 

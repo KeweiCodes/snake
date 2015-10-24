@@ -2,11 +2,11 @@ import React from "react";
 import {Route, IndexRoute} from "react-router";
 
 import Root from "./components/Root";
-import MemberList from "./components/MemberList";
+import GamePanel from "./components/GamePanel";
 
 var routes = (
     <Route component={Root} path="/">
-        <IndexRoute component={MemberList} />
+        <IndexRoute component={GamePanel} />
     </Route>
 );
 

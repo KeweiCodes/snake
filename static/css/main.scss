@@ -1,5 +1,26 @@
-body{
-  background: url("../images/background.jpg") no-repeat center center fixed;
-  background-size: cover;
-  color: white;
+.block-unused{
+  background-color: #B4C201;
+}
+
+.block-snake{
+  background-color: #7A7C00;
+}
+
+.block-snake-head{
+  background-color: #757100;
+}
+
+.block{
+  width: 2vw;
+  height: 2vw;
+  display: inline-block;
+}
+
+.blockRow{
+  height: 2vw;
+}
+
+.game-panel{
+  border: 10px solid #7A7C00;
+  display: inline-block;
 }

@@ -4,12 +4,14 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=0, width=device-width, height=device-height" />
     <title>React Kickoff!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     {% if (o.htmlWebpackPlugin.options.production) { %}
     <link rel="stylesheet" href="app.{%=o.webpack.hash%}.css" media="all">
     {% } %}
   </head>
   <body>
     <div id="app"></div>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
     <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>
     {% } %}
