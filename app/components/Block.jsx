@@ -17,6 +17,8 @@ class Block extends React.Component{
       case constants.SNAKE_HEAD_SQUARE:
         blockClass = "block-snake-head block";
         break;
+      case constants.FRUIT_SQUARE:
+        blockClass = "block-fruit block"
     }
     return (
       <div className={ blockClass }>

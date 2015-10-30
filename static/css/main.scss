@@ -1,3 +1,6 @@
+$block-width: 15px;
+$block-height: 15px;
+
 .block-unused{
   background-color: #B4C201;
 }
@@ -6,18 +9,26 @@
   background-color: #7A7C00;
 }
 
+.block-fruit{
+  background: url("../images/fruits.png");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-color: #B4C201;
+}
+
 .block-snake-head{
   background-color: #757100;
 }
 
 .block{
-  width: 2vw;
-  height: 2vw;
+  width: $block-width;
+  height: $block-height;
   display: inline-block;
 }
 
 .blockRow{
-  height: 2vw;
+  height: $block-height;
 }
 
 .game-panel{
